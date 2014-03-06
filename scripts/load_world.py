@@ -17,7 +17,7 @@ world_mapping = {
     'mpoly' : 'MULTIPOLYGON',
 }
 
-world_shp = '/home/jtgiss01/archiver/world_borders/data/TM_WORLD_BORDERS-0.3.shp'
+world_shp = '/home/ubuntu/archiver/world_borders/data/TM_WORLD_BORDERS-0.3.shp'
 
 def run(verbose=True):
     lm = LayerMapping(WorldBorder, world_shp, world_mapping,
